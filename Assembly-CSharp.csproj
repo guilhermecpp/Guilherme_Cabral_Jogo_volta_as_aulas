@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{39DC19F4-E64F-2C88-A0F4-6CD52E910CB3}</ProjectGuid>
+    <ProjectGuid>{1638CB01-4E07-BD99-BBA1-32522E84B56B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,22 +54,25 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Enter.cs" />
      <Compile Include="Assets\Scripts\Figurante.cs" />
      <Compile Include="Assets\Scripts\Inimigo.cs" />
      <Compile Include="Assets\Scripts\ItensPicker.cs" />
+     <Compile Include="Assets\Scripts\MostrarScore.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\ScriptController.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>/home/cabral/Área de Trabalho/Guilherme Cabral - Volta as aulas/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>/home/cabral/Área de Trabalho/Guilherme Cabral - Jogo volta às aulas/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/home/cabral/Área de Trabalho/Guilherme Cabral - Volta as aulas/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/home/cabral/Área de Trabalho/Guilherme Cabral - Jogo volta às aulas/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/home/cabral/Área de Trabalho/Guilherme Cabral - Volta as aulas/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/home/cabral/Área de Trabalho/Guilherme Cabral - Jogo volta às aulas/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/cabral/Área de Trabalho/Guilherme Cabral - Volta as aulas/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/home/cabral/Área de Trabalho/Guilherme Cabral - Jogo volta às aulas/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/opt/Unity3D/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

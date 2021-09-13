@@ -186,9 +186,12 @@
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
 'Assets/Scripts/CameraFollow.cs'
+'Assets/Scripts/Enter.cs'
 'Assets/Scripts/Figurante.cs'
 'Assets/Scripts/Inimigo.cs'
 'Assets/Scripts/ItensPicker.cs'
+'Assets/Scripts/MostrarScore.cs'
 'Assets/Scripts/PlayerController.cs'
+'Assets/Scripts/Restart.cs'
 'Assets/Scripts/ScriptController.cs'
 -lib:'/opt/Unity3D/Editor/Data/MonoBleedingEdge/lib/mono/unity'

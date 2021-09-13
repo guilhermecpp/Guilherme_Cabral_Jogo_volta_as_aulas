@@ -4,10 +4,6 @@
 -langversion:4
 -out:'Temp/Assembly-CSharp.dll'
 -nostdlib
--r:'Library/ScriptAssemblies/UnityEditor.StandardEvents.dll'
--r:'Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll'
--r:'Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll'
--r:'Library/ScriptAssemblies/Unity.TextMeshPro.dll'
 -r:'/opt/Unity3D/Editor/Data/Managed/UnityEngine/UnityEngine.dll'
 -r:'/opt/Unity3D/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll'
 -r:'/opt/Unity3D/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll'
@@ -71,6 +67,10 @@
 -r:'/opt/Unity3D/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll'
 -r:'/opt/Unity3D/Editor/Data/Managed/UnityEditor.dll'
 -r:'/opt/Unity3D/Editor/Data/Managed/Unity.Locator.dll'
+-r:'Library/ScriptAssemblies/UnityEditor.StandardEvents.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.dll'
 -r:'/opt/Unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/opt/Unity3D/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
 -r:'/opt/Unity3D/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
@@ -186,9 +186,12 @@
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
 'Assets/Scripts/CameraFollow.cs'
+'Assets/Scripts/Enter.cs'
 'Assets/Scripts/Figurante.cs'
 'Assets/Scripts/Inimigo.cs'
 'Assets/Scripts/ItensPicker.cs'
+'Assets/Scripts/MostrarScore.cs'
 'Assets/Scripts/PlayerController.cs'
+'Assets/Scripts/Restart.cs'
 'Assets/Scripts/ScriptController.cs'
 -lib:'/opt/Unity3D/Editor/Data/MonoBleedingEdge/lib/mono/unity'

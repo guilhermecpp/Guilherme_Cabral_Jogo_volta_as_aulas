@@ -18,8 +18,8 @@ public class ItensPicker : MonoBehaviour { // Nome da Classe
     public AudioSource lifeSound; // Som da morte
 
     public AudioSource faseSound; // Som da Mudança de fase
-    public bool imunidade;
-    public long tempo_de_imunidade;
+    private bool imunidade;
+    private long tempo_de_imunidade;
     
     private void Start()
     {
@@ -78,7 +78,7 @@ public class ItensPicker : MonoBehaviour { // Nome da Classe
                 lifeSound.Play(); //Som de dor
                 live -= 1; //Decrementa a vida
                 imunidade = true;
-                tempo_de_imunidade = 50;
+                tempo_de_imunidade = 60;
               }
               ScriptController.userLife=live;
               ScriptController.carregaHistoria();

@@ -15,17 +15,17 @@ public class ScriptController: MonoBehaviour
     public static string password = "";
 
     // Vidas do jogador.
-    public static int userLife = 10;
+    public static int userLife;
 
     // Password do jogador.
-    public  static int userPoints = 0;
+    public  static int userPoints;
 
     void Start () {
      carregaHistoria();
      //M();
    }
     public static void carregaHistoria()
-{
+    {
         string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         string path = Application.persistentDataPath+"dat.txt";// Path.Combine(docPath, "WriteLines.txt");//@"c:\MyTest.txt";
         FileInfo DB = new FileInfo(path);
