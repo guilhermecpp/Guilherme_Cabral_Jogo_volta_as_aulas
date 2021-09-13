@@ -34,10 +34,6 @@ public class ItensPicker : MonoBehaviour { // Nome da Classe
 
     private void Update()
     {
-        if(live == 0)
-        {
-            SceneManager.LoadScene("Game_Over");
-        }
         if(imunidade == true)
         {
             tempo_de_imunidade--;
@@ -49,6 +45,10 @@ public class ItensPicker : MonoBehaviour { // Nome da Classe
         scoreText.text = "Itens: "+Itens.ToString();
         liveText.text = "Life: "+live.ToString();
         UpdateHealthBar();
+        if(live == 0)
+        {
+            SceneManager.LoadScene("Game_Over");
+        }
        
     }
     private void OnTriggerEnter2D(Collider2D collision)

@@ -15,10 +15,10 @@ public class ScriptController: MonoBehaviour
     public static string password = "";
 
     // Vidas do jogador.
-    public static int userLife;
+    public static int userLife = 10;
 
     // Password do jogador.
-    public  static int userPoints;
+    public  static int userPoints = 0;
 
     void Start () {
      carregaHistoria();
