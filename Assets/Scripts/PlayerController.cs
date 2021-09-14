@@ -18,9 +18,11 @@ public class PlayerController : MonoBehaviour {  //Declaração da Classe
    }
    // Atualização
    void Update () {
-     
+     if(ScriptyPause.pause == false)
+     {
       move ();
       Jump ();
+     }
    }
  
 
@@ -33,12 +35,10 @@ public class PlayerController : MonoBehaviour {  //Declaração da Classe
       {
          transform.eulerAngles = new Vector2(0f,0f);
       }
-        if(inputAxis < 0)
+      if(inputAxis < 0)
       {
          transform.eulerAngles = new Vector2(0f,180f);
-      }
-  
-    
+      }    
     }
 // Essa função tem finalidade de informar que o jogador pulou
     void Jump()

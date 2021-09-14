@@ -19,8 +19,10 @@ public class Inimigo : MonoBehaviour
   }
 
   void Update()
-  {
+  {if(ScriptyPause.pause == false)
+    {
      Patrulha1() ; 
+    }
   }
 
   public void Patrulha1()

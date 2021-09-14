@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\ScriptController.cs" />
+     <Compile Include="Assets\Scripts\ScriptyPause.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/home/cabral/Área de Trabalho/Guilherme Cabral - Jogo volta às aulas/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

@@ -34,6 +34,8 @@ public class ItensPicker : MonoBehaviour { // Nome da Classe
 
     private void Update()
     {
+      if(ScriptyPause.pause == false)
+      {
         if(imunidade == true)
         {
             tempo_de_imunidade--;
@@ -49,10 +51,12 @@ public class ItensPicker : MonoBehaviour { // Nome da Classe
         {
             SceneManager.LoadScene("Game_Over");
         }
-       
+      }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+      if(ScriptyPause.pause == false)
+      {
         if(collision.CompareTag("Item") == true) //Essa condição verifica se o player encostou com um objeto com rotulo Coin
           {
               ItensSound.Play(); //som de pegar moeda
@@ -92,10 +96,14 @@ public class ItensPicker : MonoBehaviour { // Nome da Classe
              SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
               
           }
+      }
     }
     private void UpdateHealthBar()
     {
+      if(ScriptyPause.pause == false)
+      {
         healthbar.fillAmount = live/10;
+      }
     }
     
 
