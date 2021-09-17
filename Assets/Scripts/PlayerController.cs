@@ -4,8 +4,8 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {  //Declaração da Classe
    //Declaração das variaveis
-   public float speed = 2.0f;
-   public float jumpForce = 9.0f;
+   public float speed = 5.0f;
+   public float jumpForce = 12.0f;
    private Rigidbody2D rb2d;
    public bool isGrounded; 
    public AudioSource jumpSound; 

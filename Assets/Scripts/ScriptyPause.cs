@@ -15,10 +15,10 @@ public class ScriptyPause : MonoBehaviour { // Nome da Classe
         {
             if(pause == false)
             {
-                transform.Translate(Vector2.right * 1100f);
+                transform.Translate(Vector2.right * 1500f);
             }else
             {
-                transform.Translate(Vector2.right * -1100f);
+                transform.Translate(Vector2.right * -1500f);
             }
             pause = !pause;
         }
